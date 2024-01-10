@@ -65,8 +65,8 @@ letter-spacing: -0.5px;;
 .centered-image {
   max-width: 500px;  
   object-fit: cover; /* 이미지 비율 유지 */
-
   max-width: 500px;
+  max-height: 800px;
   height: auto;
 }
 .kiosk_hiden, .sent_hiden,.ph_hiden {
