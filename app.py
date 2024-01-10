@@ -12,3 +12,4 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
+pygame.font.get_default_font()
