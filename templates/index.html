@@ -1,31 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디지고 키오스크 사용</title>
+    <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
 <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    
+
     <div class="header">
         <img src="C:\Users\USER\Documents\해커톤\img\로고 PNG.png" alt="" width="120px" height="40px" class="Logo">    
-        <div class="nav">
-            <a class="nav-item" href="#">키오스크 사용</a>
-            <a class="nav-item" href="#">휴대폰 결제</a>
-            <a class="nav-item" href="#">휴대폰 설정</a>
-            <a class="nav-item" href="#">메신저 보내기</a>
-        </div>  
 
-        </div>
     </div>
-    <div class="carousel">
-        <img src="C:\Users\USER\Documents\해커톤\img\키오스크.jpg" alt="이미지1">
-        <img src="image2.jpg" alt="이미지2">
-        <img src="image3.jpg" alt="이미지3">
+    <div class="nav">
+        <a class="nav-item" href="#">키오스크 사용</a>
+        <a class="nav-item" id ="phone" href="#">휴대폰 설정</a>
+        <a class="nav-item" id="messenger" href="#">메신저 보내기</a>
     </div>
-   
+<div class="kiosk_hiden">
+    <div class="centered-content">
+        <img class="centered-image" src="kiosk.png" alt="설명">
+        <p class="centered-text">화면에 보이는 주문하기를 손가락으로 누릅니다</p>
+    </div>
+    <div class="centered-content">
+        <img class="centered-image" src="kiosk2.png" alt="설명">
+        <p class="centered-text">식사 방법을 선택하고 손가락으로 누릅니다</p>
+    </div>
+    <div class="centered-content">
+        <img class="centered-image" src="kiosk3.png" alt="설명">
+        <p class="centered-text">목록을 선택하고 손가락으로 누릅니다</p>
+    </div>
+    <div class="centered-content">
+        <img class="centered-image" src="kiosk5.png" alt="설명">
+        <p class="centered-text">자신이 원하는 음식를 눌러 선택한 후 결제 버튼을 누릅니다.</p>
+    </div>
+    <div class="centered-content">
+        <img class="centered-image" src="kiosk4.png" alt="설명">
+        <p class="centered-text">결제 방법을 선택한 후 결제를 합니다.</p>
+    </div>
+    <div class="centered-content">
+        <img class="centered-image" src="kiosk6.png" alt="설명">
+        <p class="centered-text">카드를 삽입하고 결제를 완료합니다</p>
+    </div>
+</div>
+<div class="sent_hiden">
+    <div class="centered-content">
+        <img class="centered-image" src="sent.jpg" alt="설명">
+        <p class="centered-text">화면에 보이는 상대중 문자 및 사진를 보내고 싶은 사람을 누릅니다</p>
+    </div>
+    <div class="centered-content">
+        <img class="centered-image" src="sent2.jpg" alt="설명">
+        <p class="centered-text">사진을 누릅니다.</p>
+    </div>
+    <div class="centered-content">
+        <img class="centered-image" src="sent3.jpg" alt="설명">
+        <p class="centered-text">목록을 선택하고 손가락으로 누릅니다</p>
+    </div>
+    <div class="centered-content">
+        <img class="centered-image" src="sent4.jpg" alt="설명">
+        <p class="centered-text">자신이 원하는 사진를 눌러 선택한 후 전송 버튼을 누릅니다.</p>
+    </div>
+    <div class="centered-content">
+        <img class="centered-image" src="sent5.jpg" alt="설명">
+        <p class="centered-text">전송이 잘 됬는지 확인 합니다.</p>
+    </div>
+</div>
+<div class="ph_hiden">
+    <div class="centered-content">
+        <img class="centered-image" src="1.jpg" alt="설명">
+        <p class="centered-text">화면에 보이는 설정을 손가락으로 누릅니다</p>
+    </div>
+    <div class="centered-content">
+        <img class="centered-image" src="2.jpg" alt="설명">
+        <p class="centered-text">배경화면 및 스타일을 누릅니다</p>
+    </div>
+    <div class="centered-content">
+        <img class="centered-image" src="3.jpg" alt="설명">
+        <p class="centered-text">배경화면 변경을 누릅니다</p>
+    </div>
+    <div class="centered-content">
+        <img class="centered-image" src="44.jpg" alt="설명">
+        <p class="centered-text">갤러리 버튼을 누릅니다</p>
+    </div>
+    <div class="centered-content">
+        <img class="centered-image" src="4.jpg" alt="설명">
+        <p class="centered-text">원하는 사진을 선택한 후 오른쪽 상단 완료를 누릅니다.</p>
+    </div>
+    <div class="centered-content">
+        <img class="centered-image" src="5.jpg" alt="설명">
+        <p class="centered-text">다음 버튼을 누르고 배경화면이 바뀌었는지 확인하세요.</p>
+    </div>
+    <div class="centered-content">
+        <img class="centered-image" src="6.jpg" alt="설명">
+        <p class="centered-text">결제 방법을 선택한 후 결제를 합니다.</p>
+    </div>
+</div>
+      
+      
+      
 </body>
-<script src="js.js"></script>
+<script>
+    var kiosk_link = document.querySelector('.nav-item');
+    var kiosk_content = document.querySelector('.kiosk_hiden');
+  
+    kiosk_link.addEventListener('click', function(e) {
+      e.preventDefault(); // 링크의 기본 동작을 막음
+      if (kiosk_content.style.display === 'none') {
+        kiosk_content.style.display = 'block'; // kiosk_hiden 클래스를 가진 요소를 보이게 함
+      } else {
+        kiosk_content.style.display = 'none'; // kiosk_hiden 클래스를 가진 요소를 숨김
+      }
+    });
+    document.getElementById('messenger').addEventListener('click', function(e) {
+  e.preventDefault();
+  var sentHidenElement = document.querySelector('.sent_hiden');
+  if (sentHidenElement.style.display === 'none') {
+    sentHidenElement.style.display = 'block';
+  } else {
+    sentHidenElement.style.display = 'none';
+  }
+});
+document.getElementById('phone').addEventListener('click', function(e) {
+  e.preventDefault();
+  var phHidenElement = document.querySelector('.ph_hiden');
+  if (phHidenElement.style.display === 'none') {
+    phHidenElement.style.display = 'block';
+  } else {
+    phHidenElement.style.display = 'none';
+  }
+});
+
+  </script>
+  
 </html>
