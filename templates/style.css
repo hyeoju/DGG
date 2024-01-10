@@ -2,21 +2,75 @@
     margin: 0;
     padding: 0;
     }
+.Logo {
+    width: 120px; height: auto; 
+    padding-right: 520px;
+    
+}
 .header {
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
     padding: 20px;
-    border-bottom: gray solid 1px gray;
+    border-bottom: 1px solid #E2E5EB;
+    background: #FFF;
+}
+.nav{
+    font-size: large;
+    font-weight: bold;
+
 }
 .nav-item {
     margin: 0 15px; 
-    font-size: bold;
-    font-family: 'inter';
     text-decoration: none;
     color: black;
+    color: #222;
+
+font-family: 'Inter';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 58.333% */
+letter-spacing: -0.5px;
 }
 .nav-item:hover{
     color : rgb(39, 124, 244);
 
+}
+.carousel {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 블러 효과 */
+    z-index: 1;
+}
+
+.text {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide:hover {
+    opacity: 0.7; /* 마우스 오버시 투명도 조절 */
 }
