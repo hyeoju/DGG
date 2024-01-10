@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: gray solid 1px gray;
+}
+.nav-item {
+    margin: 0 15px; 
+    font-size: bold;
+    font-family: 'inter';
+    text-decoration: none;
+    color: black;
+}
+.nav-item:hover{
+    color : rgb(39, 124, 244);
+
+}
