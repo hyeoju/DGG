@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+.Logo {
+    display: flex;
+    justify-content: center;
+    width: 340px; height: auto; 
+    
+}
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 1px solid #E2E5EB;
+    background: #FFF;
+}
+a {
+ margin: 0 15px; 
+text-decoration: none;
+color: #222;
+height: 100%; 
+font-family: 'Roboto', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 58.333% */
+letter-spacing: -0.5px;;
+}
+.nav{
+    padding-top:20px ;
+    display: flex;
+    justify-content: center;
+}
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* 필요에 따라 변경 */
+  }
+  
+.nav-item:hover{
+    color : rgb(39, 124, 244);
+}
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh; /* viewport height의 100%. 즉, 사용자의 화면 높이와 같음 */
+  background: #f4f4f4; /* 배경색 추가 */
+}
+
+.centered-text {
+  text-align: center;
+  margin-bottom: 10px; /* 텍스트와 이미지 사이의 간격을 조정 */
+  font-family: 'Roboto', sans-serif; /* Google Fonts의 Roboto 폰트 적용 */
+  font-weight: bold; 
+  font-size: 4em; 
+  color: #333; 
+  padding-top: 10px;
+}
+
+.centered-image {
+  max-width: 500px;  
+  object-fit: cover; /* 이미지 비율 유지 */
+  max-width: 500px;
+  max-height: 500px;
+  height: auto;
+}
+
+img {
+  max-width: 500px;
+}
+
+.sent_hiden {
+    margin-top: 1rem;
+}
